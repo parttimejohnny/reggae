@@ -1,0 +1,252 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+#titleText {
+    position: relative;
+    display: block;
+    font-weight: bold;
+    color: #33455a;
+    letter-spacing: -1pt;
+    word-spacing: 0pt;
+    height: 65px;
+    font-size: 40px;
+    text-align: left;
+    font-family: helvetica, sans-serif;
+    line-height: 65px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    float:left;
+}
+
+#msgText {
+    font-size: 18px;
+    padding-top: 25px;
+    color: #ad0800;
+}
+
+#contentContainer {
+    width: 100%;
+    float: left;
+}
+
+.navButton a i {
+    margin-right: 5px;
+}
+
+.tab-content {
+    overflow: scroll;
+}
+
+.dataTable tr th {
+    white-space: nowrap;
+}
+
+.dataTable tr td {
+    white-space: nowrap;
+    text-align: right;
+}
+
+.filterTitle {
+    float: left;
+    margin-right: 20px;
+}
+
+.revenueFilterTitle {
+    float: left;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.revenueSelect {
+    float: left;
+}
+
+.chartContainer {
+    float: left;
+    width: 45%;
+}
+
+.revenueChartContainer {
+    float: left;
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+.revenueFilterContainer {
+    min-width: 100px;
+    float: left;
+}
+
+#filterContainer {
+    float: left;
+    width: 100%;
+}
+
+#kpiTrendsFilter, #revenueChartsFilter, #revenueReportsFilter {
+    border: #33455a solid 3px;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    width: 95%;
+}
+
+.trendButton {
+    width: 100px;
+}
+
+#trendGames, #trendDimensions, #revenueDimensions {
+    float: left;
+    margin-right: 40px;
+}
+
+#trendSubmit  {
+    position: relative;
+    top: 155px;
+    float: right;
+}
+
+#revenueSubmit  {
+    position: relative;
+    top: 0px;
+    float: right;
+}
+
+#trendStartDate, #trendEndDate {
+    width: 95px;
+}
+
+#trendGamesTable td, #trendDimensionsTable td, #revenuDimensionsTable td {
+    padding: 5px;
+}
+
+#trendSubmitButton {
+    top: 300px;
+}
+
+#revenueSubmitButton {
+    top: 10px;
+}
+
+#revenueReportsTable {
+    width: 90%;
+}
+
+.studioRow {
+    font-weight: bold;
+}
+
+.studioRow td {
+    text-align: left;
+}
+
+.titleRow:nth-child(odd) {
+    background-color: #F7F7F7 !important;
+}
+
+.titleRow:nth-child(even) {
+    background-color: #EDEDED !important;
+}
+
+.leftAlign {
+    text-align: left !important;
+}
+
+.rightAlign {
+    text-align: right !important;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: 15px !important;
+    font-size: 16px !important;
+}
